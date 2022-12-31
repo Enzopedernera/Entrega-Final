@@ -1,0 +1,30 @@
+.main {
+    padding-top: 6rem;
+
+    .section4 {
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 1px;
+        margin: 1px;
+        flex: 15;
+        min-width: 250px;
+
+        img {
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 25px;
+            margin: 22px;
+            overflow: hidden;
+            border-radius: 35px;
+        }
+
+        &:hover {
+            border-color: black;
+            border: black;
+            padding: 5px;
+            margin: 15px 22px;
+            transition: all 0.5s linear;
+            border-radius: 5px;
+        }
+    }
+}

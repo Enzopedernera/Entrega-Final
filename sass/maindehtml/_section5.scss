@@ -1,0 +1,56 @@
+.main {
+
+    padding-top: 6rem;
+}
+    .section5 {
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        padding: 2rem;
+        margin-right: 1rem 1rem;
+    
+
+        h1 {
+            width: 100%;
+            color:black;
+            padding: 2rem 1rem;
+            margin: 2rem 1rem;
+        }
+
+       .contacto h5 {
+           
+            background-position: center;
+            padding: 25px;
+            margin: 2px;
+        } 
+        
+        .fielset {
+      
+            background-position: center;
+            padding: 25px;
+            margin: 2px;
+
+        }
+
+        p {
+            background-position: center;
+            padding: 25px;
+            margin: 2px;
+        }
+
+       .imagen img {
+        width: 100%;
+            padding: 25px;
+            margin: 2px;
+        }
+
+        .formulario form {
+            width: 75%;
+            color: black;
+            background-color: rgb(175, 174, 174);
+            opacity: 70%;
+            padding: 25px;
+            margin: 2px;
+        }
+
+    }

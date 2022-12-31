@@ -1,0 +1,42 @@
+.main {
+    padding-top: 6rem;
+
+    .section2 {
+        background-position: center;
+        padding: 10px;
+        margin: 10px;
+    
+        .section2 .accordion{
+            flex: 15;
+            min-width: 250px;
+          }
+          
+
+        .accordion:first-child {
+            flex: 15;
+            padding: 5px;
+            margin: 10px;
+        }
+        h4 {
+            background-position: left;
+            background-position: center;
+            padding: 25px;
+            margin: 2px;
+        }
+
+        h5 {
+            background-position: left;
+            background-position: center;
+            padding: 25px;
+            margin: 1px;
+        }
+
+        div {
+            background-position: left;
+            background-position: center;
+            padding: 25px;
+            margin: 1px;
+        }
+
+    }
+}

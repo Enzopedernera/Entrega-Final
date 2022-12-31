@@ -1,0 +1,415 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: ´open sans´, sans-serif;
+}
+
+.top {
+  background-color: black;
+  color: white;
+  padding: 0.1rem 0 0.1rem 0;
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  background-position: left;
+  background-position: center;
+  margin: 2px;
+  text-align: start;
+}
+.top a {
+  text-decoration: none;
+}
+.top .logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .logo {
+  letter-spacing: 15px;
+  font-size: 1.2rem;
+}
+.top .navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.top li {
+  display: inline-block;
+}
+.top li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+}
+.top li a:hover {
+  background-color: rgb(130, 100, 22);
+}
+
+.main {
+  padding-top: 6rem;
+}
+.main .container {
+  width: 100%;
+  margin: 0 auto;
+}
+.main .section1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  margin: 1px;
+  flex: 15;
+  min-width: 250px;
+}
+.main .section1 p {
+  padding: 5px;
+  margin: 15px;
+}
+.main .section1 img {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.main .section1 .carousel-control-next-icon .carousel-control-prev-icon {
+  display: inline-block;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-size: 100% 100%;
+}
+.main .section1 .carousel-control-next .carousel-control-prev {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+.main .section1 p {
+  background-position: left;
+  background-position: center;
+  padding: 10px;
+  margin: 2px;
+}
+.main h1 {
+  color: black;
+  margin-bottom: 2rem;
+  width: 100%;
+  line-height: 1.3em;
+  font-size: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.main {
+  padding-top: 6rem;
+}
+.main .section2 {
+  background-position: center;
+  padding: 10px;
+  margin: 10px;
+}
+.main .section2 .section2 .accordion {
+  flex: 15;
+  min-width: 250px;
+}
+.main .section2 .accordion:first-child {
+  flex: 15;
+  padding: 5px;
+  margin: 10px;
+}
+.main .section2 h4 {
+  background-position: left;
+  background-position: center;
+  padding: 25px;
+  margin: 2px;
+}
+.main .section2 h5 {
+  background-position: left;
+  background-position: center;
+  padding: 25px;
+  margin: 1px;
+}
+.main .section2 div {
+  background-position: left;
+  background-position: center;
+  padding: 25px;
+  margin: 1px;
+}
+
+.main {
+  padding-top: 6rem;
+}
+.main .section3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  min-width: 250px;
+}
+.main .section3 p {
+  background-position: left;
+  background-position: center;
+  padding: 25px 25px;
+  margin: 10px;
+}
+.main .section3 img {
+  padding: 2px;
+  margin: 1px;
+  width: 49.5%;
+  height: 50%;
+  line-height: 1.3em;
+  font-size: 2rem;
+  align-items: center;
+  border-radius: 8%;
+  border-radius: 20%;
+}
+
+.main {
+  padding-top: 6rem;
+}
+.main .section4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+  margin: 1px;
+  flex: 15;
+  min-width: 250px;
+}
+.main .section4 img {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 25px;
+  margin: 22px;
+  overflow: hidden;
+  border-radius: 35px;
+}
+.main .section4:hover {
+  border-color: black;
+  border: black;
+  padding: 5px;
+  margin: 15px 22px;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+}
+
+.main {
+  padding-top: 6rem;
+}
+
+.section5 {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-right: 1rem 1rem;
+}
+.section5 h1 {
+  width: 100%;
+  color: black;
+  padding: 2rem 1rem;
+  margin: 2rem 1rem;
+}
+.section5 .contacto h5 {
+  background-position: center;
+  padding: 25px;
+  margin: 2px;
+}
+.section5 .fielset {
+  background-position: center;
+  padding: 25px;
+  margin: 2px;
+}
+.section5 p {
+  background-position: center;
+  padding: 25px;
+  margin: 2px;
+}
+.section5 .imagen img {
+  width: 100%;
+  padding: 25px;
+  margin: 2px;
+}
+.section5 .formulario form {
+  width: 75%;
+  color: black;
+  background-color: rgb(175, 174, 174);
+  opacity: 70%;
+  padding: 25px;
+  margin: 2px;
+}
+
+.footer {
+  background-color: black;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.footer-col {
+  padding: 0 15px;
+  color: rgb(130, 100, 22);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-col img {
+  background-position: left;
+  width: 250px;
+}
+.footer-col h4 {
+  padding: 30px;
+  font-size: 25px;
+  color: rgb(130, 100, 22);
+  font-weight: 500;
+  position: relative;
+}
+.footer-col::before {
+  content: ´´;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50%;
+}
+.footer-col .red-social a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(130, 100, 22);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: black;
+  transition: all 0.5s linear;
+}
+.footer-col a:hover {
+  color: #fff;
+}
+.footer-col .footer .grupo-2 {
+  color: rgb(130, 100, 22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  .top {
+    background-color: black;
+    color: white;
+    padding: 0.1rem 0 0.1rem 0;
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    background-position: left;
+    background-position: center;
+    margin: 2px;
+    text-align: start;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section1 p {
+    width: 100%;
+    background-color: gray;
+    color: black;
+    opacity: 100%;
+    border-radius: 1.3rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main .section2 div {
+    background-position: left;
+    background-position: center;
+    padding: 5%;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main .section3 p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main .section3 img {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main .section4 {
+    width: 100%;
+    text-align: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section4 button {
+    width: 100%;
+    text-align: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section4 img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section5 h4 {
+    background-position: center;
+    width: 100%;
+    text-align: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section5 h1 {
+    width: 100%;
+    background-position: center;
+    text-align: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section5 .formulario form {
+    width: 100%;
+    color: black;
+    background-color: rgb(175, 174, 174);
+    opacity: 70%;
+    padding: 1rem 1rem;
+    margin: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section5 img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer-col .grupo-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
